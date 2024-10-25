@@ -39,13 +39,16 @@ tr td{
 
 #reset {
     margin-top: 8px;
-    font-size: 18px;
-    
+    font-size: 15px;
+    box-shadow: 0 0 15px rgba(209, 198, 198, 0.8);
 }
+    
+
 
 #resultado {
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 10px;
+    color: rgb(239, 184, 16);
 }
 
 

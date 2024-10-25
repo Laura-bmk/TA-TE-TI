@@ -12,6 +12,10 @@ cells.forEach(cell => {
                 resultado.textContent = "Ganaste!!";
                 document.getElementById("audioGanador").play();
                 return;
+            } else if (isDraw()) {
+                resultado.textContent = "¡Empate!";
+                document.getElementById("audioEmpate").play();
+                return; // Se detecta el empate, no hay más turnos
             }
             currentPlayer = 'O';
             setTimeout(() => {
